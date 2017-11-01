@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF6666",
+    "navigationBarTitleText": "蛋糕",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#780f01",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/footer_icon/home_page_active.png",
+        "iconPath": "images/footer_icon/home_page.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/footer_icon/classify_active.png",
+        "iconPath": "images/footer_icon/classify.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/footer_icon/user_icon_active.png",
+        "iconPath": "images/footer_icon/user_icon.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  }
+  
+}

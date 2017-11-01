@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="swiper-container">
+    <view>{{swiperCurrent}}</view>
+    <swiper autoplay="auto" interval="1000" duration="300" current="{{swiperCurrent}}"  class="swiper">
+      <block wx:for="{{slider}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item.picUrl}}" class="img"></image>
+        </swiper-item>
+      </block>
+    </swiper>     
+    <view class="dots">
+      <block wx:for="{{slider}}" wx:key="nique">
+        <!-- <view class="dot{{index == swiperCurrent? ' active' : ''}}"></view> -->
+      </block>
+    </view>
+  </view>
+  <view class='a-container'>
+    <view class='a-box'>
+      <view class='a-header a-a'>A</view>
+      <view class='a-header a-tit'>人气精选</view>
+      <view class='a-header a-more'>更多</view>
+    </view>
+    <view class='a-product-box clearfix'>
+      <block wx:for="{{slider}}" wx:key="unique">
+        <view class='a-product-div'>
+          <view class='a-product-set'>
+            <image src='../../images/product/711673175228.jpg'></image>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt a-product-bottom clearfix'>
+              <view class='a-product-price'>188</view>
+              <view class='a-car'><image src='../../images/icon/cartico0.png'></image></view>
+              <view class='a-product-sure'>购买</view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='a-container'>
+    <view class='a-box'>
+      <view class='a-header a-a'>B</view>
+      <view class='a-header a-tit'>生日蛋糕</view>
+      <view class='a-header a-more'>更多</view>
+    </view>
+    <view class='a-product-box clearfix'>
+      <block wx:for="{{slider}}" wx:key="unique">
+        <view class='a-product-div'>
+          <view class='a-product-set'>
+            <image src='../../images/product/711673175228.jpg'></image>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt a-product-bottom clearfix'>
+              <view class='a-product-price'>188</view>
+              <view class='a-car'><image src='../../images/icon/cartico0.png'></image></view>
+              <view class='a-product-sure'>购买</view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

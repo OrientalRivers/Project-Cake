@@ -1,0 +1,9 @@
+/**app.wxss**/
+.container {
+  background: #ECEBE6;
+} 
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
