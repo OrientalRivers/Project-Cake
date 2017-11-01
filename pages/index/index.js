@@ -10,12 +10,7 @@ Page({
       { picUrl: '../../images/m_banner/m_banner8.jpg' },
       { picUrl: '../../images/m_banner/m_banner9.jpg' }
     ], 
-    swiperCurrent: 0,
-  },
-  swiperChange: function (e) {
-    this.setData({
-      swiperCurrent: e.detail.current
-    })
+    
   },
 
   /**

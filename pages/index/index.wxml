@@ -1,19 +1,13 @@
 <!--index.wxml-->
 <view class="container">
   <view class="swiper-container">
-    <view>{{swiperCurrent}}</view>
-    <swiper autoplay="auto" interval="1000" duration="300" current="{{swiperCurrent}}"  class="swiper">
-      <block wx:for="{{slider}}" wx:key="unique">
+    <swiper autoplay='true' indicator-dots='true' circular='ture' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='#f80'>
+      <block wx:for="{{slider}}">
         <swiper-item>
-          <image src="{{item.picUrl}}" class="img"></image>
+          <image src="{{item.picUrl}}" class="slide-image" width="100%" height="310"/>
         </swiper-item>
-      </block>
-    </swiper>     
-    <view class="dots">
-      <block wx:for="{{slider}}" wx:key="nique">
-        <!-- <view class="dot{{index == swiperCurrent? ' active' : ''}}"></view> -->
-      </block>
-    </view>
+      </block>      
+    </swiper>    
   </view>
   <view class='a-container'>
     <view class='a-box'>
