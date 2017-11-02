@@ -65,63 +65,79 @@
   </view>
   <view class='info-container'>
     <view class='info-box'>
-      <view>
+      <view class='main-tit'>
         产品详情
       </view>
-      <view >
-        <view>
-          <view>
-            <view>
+      <view class='main-info'>
+        <view class='main-info-box'>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             材料：
             </view>
-            <view>
+            <view class='txt-con'>
               圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
             </view>
           </view>
-          <view>
-            <view>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             名称：
             </view>
-            <view>
+            <view class='txt-con'>
               圆形欧式水果蛋糕
             </view>
           </view>
-          <view>
-            <view>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             包装：
             </view>
-            <view>
-              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            <view class='txt-con'>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。各色时令水果方格式艺术装饰，纯手工巧克力片围边。
             </view>
           </view>
-          <view>
-            <view>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             花语：
             </view>
-            <view>
+            <view class='txt-con'>
               圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
             </view>
           </view>
-          <view>
-            <view>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             场合：
             </view>
-            <view>
+            <view class='txt-con'>
               圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
             </view>
           </view>
-          <view>
-            <view>
+          <view class='info-small-box clearfix'>
+            <view class='txt-tit'>
             说明：
             </view>
-            <view>
+            <view class='txt-con'>
               圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
             </view>
           </view>
         </view>
+        <view class='main-tit'>
+          产品实拍
+        </view>
         <view>
+          <!-- <block > -->
+          <view class='info-img-box'>
+            <image src='../../images/product/C-711673mdesC1.jpg'></image>
+          </view> 
+          <!-- </block> -->
         </view>
       </view>
+    </view>
+  </view>
+  <view class='company-merit'>
+    <view class='company-merit-box'>
+      <view class='main-tit'>
+        为什么选择我们
+      </view>
+      <image src='../../images/company/whyme.jpg'></image>
     </view>
   </view>
   <view class='buy-button'>

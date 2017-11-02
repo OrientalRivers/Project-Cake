@@ -84,3 +84,43 @@
   padding: 2rpx 6rpx;
   margin: 14rpx;
 }
+.info-container .info-box .main-tit {
+  color: #87C644;
+  font-size: 40rpx;
+  margin: 20rpx 0;
+  /* border: 1px solid #e5e5e5; */
+}
+.info-container .info-box .main-info .main-info-box {
+  width: 96%;
+  color: #333333;
+  margin: 0 auto;
+  border: 1px solid #e5e5e5;
+  border-left: none;
+  border-right: none;
+}
+.info-container .info-box .main-info .main-info-box .info-small-box {
+  margin: 20rpx 0;
+  position: relative;
+}
+.info-container .info-box .main-info .main-info-box .info-small-box .txt-tit {
+  float: left;
+  line-height: 50rpx;
+}
+.info-container .info-box .main-info .main-info-box .info-small-box .txt-con {
+  text-indent: -10rpx;
+  line-height: 50rpx;
+  margin-left: 94rpx; 
+}
+.info-container .info-box .info-img-box {
+  height: 400rpx;
+}
+.company-merit .company-merit-box {
+  height: 1100rpx;
+  margin-bottom: 180rpx;
+}
+.company-merit .company-merit-box .main-tit {
+  color:#87C644;
+  font-size:40rpx;
+  margin:20rpx 0;
+
+}
