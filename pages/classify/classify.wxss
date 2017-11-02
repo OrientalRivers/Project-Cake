@@ -1,14 +1,14 @@
 /* pages/classify/classify.wxss */
+.classify-box {
+  overflow: hidden;
+}
 .classify-box .classify-info {
   float: left;
-  width: 33.33%;
+  width: 33.3333%;
   text-align: center;
   margin-top: 70rpx;
 }
 .classify-box .classify-info .classify-info-set image{
   width: 120rpx;
   height: 120rpx;
-}
-.classify-box .classify-info .classify-info-set .classify-info-tit {
-  font-size: 28rpx;
 }
