@@ -43,12 +43,20 @@
       </view>
     </view>
   </view>
-  <view class="section">
+  <view class="picker-section clearfix">
     <view class="section__title fl">请选择蛋糕尺寸：</view>
     <picker class='fl' bindchange="bindPickerChange" value="{{index}}" range="{{cakeSizeArray}}">
       <view class="picker">
         {{cakeSizeArray[index]}}
       </view>
     </picker>
+    <view class='go-more-size fl'>
+      <image src='../../images/icon/go_more.png'></image>
+    </view>
+  </view>
+  <view class='buy-button'>
+    <view>
+      立即购买
+    </view>
   </view>
 </view>

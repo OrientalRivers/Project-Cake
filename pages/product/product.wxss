@@ -31,3 +31,32 @@
   color: #f00;
   vertical-align: middle;
 }
+.picker-section  {
+  text-indent: 40rpx;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 8rpx 0;
+  margin-top: 8rpx;
+}
+.picker-section .go-more-size {
+  vertical-align: middle;
+  margin-left: 68px;
+}
+.picker-section .go-more-size image {
+  width: 26rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+}
+.buy-button view{
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: #F15352;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
