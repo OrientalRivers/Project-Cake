@@ -1,10 +1,10 @@
 /**index.wxss**/
 .a-container .a-box {
-  height: 60rpx;
-  line-height: 60rpx;
+  height: 70rpx;
+  line-height: 70rpx;
    margin-top: 18rpx; 
   background: #fff;
-  border-bottom: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #E5E5E5;
 }
 .a-container .a-box .a-header {
   float: left;
@@ -45,12 +45,12 @@
 }
 .a-container .a-product-box .a-product-div .a-product-set {
   background: #fff;
-  /* margin: 20rpx 20rpx 0 20rpx; */
+  border: 1px solid #E5E5E5;
   text-align: center;
 }
 .a-container .a-product-box .a-product-div image {
-  width: 266rpx;
-  height: 266rpx;
+  width: 320rpx;
+  height: 320rpx;
   margin: 0 auto;
 }
 .a-container .a-product-box .a-product-div .a-product-txt {

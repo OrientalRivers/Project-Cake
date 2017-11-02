@@ -1,7 +1,7 @@
 /**app.wxss**/
 .container {
-  font-size: 26rpx;
-  background: #ECEBE6;
+  font-size: 32rpx;
+  background: #fff;
 }
 .fl {
   float: left;
@@ -15,7 +15,7 @@
   clear: both;
 }
 .swiper-container swiper {
-  height: 310rpx;
+  height: 360rpx;
 }
 .swiper-container .slide-image {
   width: 100%;

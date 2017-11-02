@@ -1,13 +1,13 @@
 /* pages/user/user.wxss */
 .container .user .user-info {
-  height: 180rpx;
+  height: 220rpx;
   background: #780f01;
   border-top: 1px solid #780f01;
 }
 .container .user .user-info .user-pic {
   width: 110rpx;
   height: 110rpx;
-  margin: 35rpx 0 0 35rpx;
+  margin: 55rpx 0 0 55rpx;
   border: 1rpx solid #fff;
   border-radius: 50%;
 }
@@ -19,13 +19,13 @@
   height: 110rpx;
 }
 .container .user .user-info .user-name {
-  line-height: 181rpx;
+  line-height: 221rpx;
   margin-left: 50rpx;
 }
 .container .user .user-goods {
   width: 100%;
-  height: 50rpx;
-  line-height: 50rpx;
+  height: 60rpx;
+  line-height: 60rpx;
   font-size: 30rpx; 
   border: 1px solid #ccc;
   border-left: none;
@@ -38,10 +38,10 @@
 .container .user .user-goods .goods-icon image {
   width: 40rpx;
   height: 40rpx;
-  margin-top: 6rpx;
+  margin: 10rpx 0 0 10rpx;
 }
 .container .user .user-goods .goods-txt {
-  margin-left: 30rpx; 
+  text-indent: 50rpx; 
 }
 .container .user .user-goods .go_goods {
   float: right;
@@ -50,5 +50,5 @@
 .container .user .user-goods .go_goods image {
   width: 34rpx;
   height: 34rpx;
-  margin-top: 10rpx;
+  margin-top: 14rpx;
 }

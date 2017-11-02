@@ -24,7 +24,6 @@
             <view class='a-product-txt'>我想要的幸福</view>
             <view class='a-product-txt a-product-bottom clearfix'>
               <view class='a-product-price'>188</view>
-              <view class='a-car'><image src='../../images/icon/cartico0.png'></image></view>
               <view class='a-product-sure'>购买</view>
             </view>
           </view>

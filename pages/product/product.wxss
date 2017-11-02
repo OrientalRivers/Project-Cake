@@ -6,25 +6,25 @@
 .product-name-price .pnp-box .pnp-box-set .small-tit {
   float: left;
   width: 50%;
-  text-indent: 40rpx;
-  margin-top: 10rpx;
+  line-height: 70rpx;
+   text-indent: 20rpx; 
 }
 .product-name-price .pnp-box .pnp-box-set {
   background: #fff;
-  border-top: 2px solid #ccc;
-  border-bottom: 2px solid #ccc;
-  margin-top: 8rpx;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 18rpx;
 }
 .product-name-price .pnp-box .pnp-box-set .old-set {
-  color: #ccc;
-  padding-bottom: 10rpx; 
+  color: #ccc; 
 }
 .product-name-price .pnp-box .pnp-box-set .small-tit .old-price {
   text-decoration:line-through;/*文字排版--删除线*/
 }
 .product-name-price .pnp-box .pnp-box-set .small-tit .sell-icon {
-  width: 24px;
-  height: 22px;
+  width: 30px;
+  height: 28px;
+  line-height: 70rpx;
 }
 .product-name-price .pnp-box .pnp-box-set .small-tit .new-price {
   font-size: 14px;
@@ -32,28 +32,31 @@
   vertical-align: middle;
 }
 .picker-section  {
-  text-indent: 40rpx;
+  text-indent: 10rpx;
   background: #fff;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding: 8rpx 0;
-  margin-top: 8rpx;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 16rpx 0;
+  margin-top: 18rpx;
 }
 .picker-section .go-more-size {
   vertical-align: middle;
-  margin-left: 68px;
+  margin-left: 60px;
 }
 .picker-section .go-more-size image {
   width: 26rpx;
   height: 24rpx;
   line-height: 24rpx;
+} 
+.picker-section .picker {
+  color: #f00;
 }
 .buy-button view{
   color: #fff;
   font-weight: 600;
   width: 100%;
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 120rpx;
+  line-height: 120rpx;
   text-align: center;
   background: #F15352;
   position: fixed;
