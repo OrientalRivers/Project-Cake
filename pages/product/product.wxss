@@ -34,7 +34,6 @@
 .picker-section  {
   text-indent: 10rpx;
   background: #fff;
-  border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   padding: 16rpx 0;
   margin-top: 18rpx;
@@ -62,4 +61,26 @@
   position: fixed;
   left: 0;
   bottom: 0;
+}
+.call-container .call-container-box {
+  padding: 20rpx 0;
+}
+.call-container .call-container-box .call-icon {
+  padding: 0;
+}
+.call-container .call-container-box .call-icon image {
+  width: 72rpx;
+  height: 72rpx;
+  
+}
+.call-container .call-container-box view {
+  padding: 18rpx;
+}
+.call-container .call-container-box .call-btn {
+  color: #28AA27;
+  float: right;
+  border: 1px #28AA27 solid;
+  border-radius: 9rpx;
+  padding: 2rpx 6rpx;
+  margin: 14rpx;
 }

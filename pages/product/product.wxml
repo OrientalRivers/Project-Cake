@@ -54,6 +54,76 @@
       <image src='../../images/icon/go_more.png'></image>
     </view>
   </view>
+  <view class='call-container'>
+    <view class='call-container-box clearfix'>
+      <view class='call-icon fl'>
+        <image src='../../images/icon/call-icon.png'></image>
+      </view>
+      <view class='fl'>24小时热线：400-658-1177</view>
+      <view class='fl call-btn' bindtap='makeTelCall'>拨打咨询</view>
+    </view>
+  </view>
+  <view class='info-container'>
+    <view class='info-box'>
+      <view>
+        产品详情
+      </view>
+      <view >
+        <view>
+          <view>
+            <view>
+            材料：
+            </view>
+            <view>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            </view>
+          </view>
+          <view>
+            <view>
+            名称：
+            </view>
+            <view>
+              圆形欧式水果蛋糕
+            </view>
+          </view>
+          <view>
+            <view>
+            包装：
+            </view>
+            <view>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            </view>
+          </view>
+          <view>
+            <view>
+            花语：
+            </view>
+            <view>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            </view>
+          </view>
+          <view>
+            <view>
+            场合：
+            </view>
+            <view>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            </view>
+          </view>
+          <view>
+            <view>
+            说明：
+            </view>
+            <view>
+              圆形欧式水果蛋糕，各色时令水果方格式艺术装饰，纯手工巧克力片围边。
+            </view>
+          </view>
+        </view>
+        <view>
+        </view>
+      </view>
+    </view>
+  </view>
   <view class='buy-button'>
     <view>
       立即购买
