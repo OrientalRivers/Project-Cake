@@ -37,9 +37,15 @@
   float: left;
   width: 50%;
 }
+.a-container .a-product-box .a-product-div:nth-child(2n+1) .a-product-set {
+  margin: 20rpx 10rpx 0 20rpx;
+}
+.a-container .a-product-box .a-product-div:nth-child(2n) .a-product-set {
+  margin: 20rpx 20rpx 0 10rpx;
+}
 .a-container .a-product-box .a-product-div .a-product-set {
   background: #fff;
-  margin: 20rpx 20rpx 0 20rpx;
+  /* margin: 20rpx 20rpx 0 20rpx; */
   text-align: center;
 }
 .a-container .a-product-box .a-product-div image {

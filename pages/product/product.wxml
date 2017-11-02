@@ -1,7 +1,7 @@
 <!--pages/product/product.wxml-->
 <view class='container'>
   <view class='swiper-container' >
-    <swiper autoplay='true' circular='true' indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='#f80'>
+    <swiper autoplay='false' circular='true' indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='#f80'>
       <block wx:for="{{slider}}">
         <swiper-item height="310rpx">
           <image class="slide-image" src='{{item.picUrl}}' ></image>
