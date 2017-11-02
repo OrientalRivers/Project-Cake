@@ -93,6 +93,7 @@
 .info-container .info-box .main-info .main-info-box {
   width: 96%;
   color: #333333;
+  font-size: 28rpx;
   margin: 0 auto;
   border: 1px solid #e5e5e5;
   border-left: none;
@@ -109,7 +110,7 @@
 .info-container .info-box .main-info .main-info-box .info-small-box .txt-con {
   text-indent: -10rpx;
   line-height: 50rpx;
-  margin-left: 94rpx; 
+  margin-left: 114rpx; 
 }
 .info-container .info-box .info-img-box {
   height: 400rpx;
