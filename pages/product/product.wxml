@@ -1,0 +1,54 @@
+<!--pages/product/product.wxml-->
+<view class='container'>
+  <view class='swiper-container' >
+    <swiper autoplay='true' circular='true' indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='#f80'>
+      <block wx:for="{{slider}}">
+        <swiper-item height="310rpx">
+          <image class="slide-image" src='{{item.picUrl}}' ></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='product-name-price'>
+    <view class='pnp-box'>
+      <view class='pnp-box-set clearfix'>
+        <view class='small-tit'>
+          <view class='fl'>
+            名称：
+          </view>
+          <view class='fl'>
+            梦幻芭比
+          </view>  
+        </view>
+        <view class='small-tit'>
+          <view class='fl'>
+            编号：
+          </view>
+          <view class='fl'>
+            000001
+          </view>  
+        </view>
+        <view class='old-set small-tit'>
+          <view class='fl'>价格：</view>
+          <view class='old-price fl'>￥999</view>
+        </view>
+        <view class='small-tit'>
+          <view class='fl'>
+            <image class='sell-icon' src='../../images/icon/sell_icon.png'></image>
+          </view>
+          <view class='fl new-price'>
+            ￥099
+          </view>  
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="section">
+    <view class="section__title fl">请选择蛋糕尺寸：</view>
+    <picker class='fl' bindchange="bindPickerChange" value="{{index}}" range="{{cakeSizeArray}}">
+      <view class="picker">
+        {{cakeSizeArray[index]}}
+      </view>
+    </picker>
+  </view>
+</view>

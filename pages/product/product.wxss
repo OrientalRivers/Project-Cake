@@ -1,0 +1,33 @@
+/* pages/product/product.wxss */
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.product-name-price .pnp-box .pnp-box-set .small-tit {
+  float: left;
+  width: 50%;
+  text-indent: 40rpx;
+  margin-top: 10rpx;
+}
+.product-name-price .pnp-box .pnp-box-set {
+  background: #fff;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-top: 8rpx;
+}
+.product-name-price .pnp-box .pnp-box-set .old-set {
+  color: #ccc;
+  padding-bottom: 10rpx; 
+}
+.product-name-price .pnp-box .pnp-box-set .small-tit .old-price {
+  text-decoration:line-through;/*文字排版--删除线*/
+}
+.product-name-price .pnp-box .pnp-box-set .small-tit .sell-icon {
+  width: 24px;
+  height: 22px;
+}
+.product-name-price .pnp-box .pnp-box-set .small-tit .new-price {
+  font-size: 14px;
+  color: #f00;
+  vertical-align: middle;
+}

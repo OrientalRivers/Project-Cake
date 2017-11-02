@@ -2,7 +2,8 @@
 .a-container .a-box {
   height: 60rpx;
   line-height: 60rpx;
-  /* margin-top: 18rpx; */
+   margin-top: 18rpx; 
+  background: #fff;
   border-bottom: 1rpx solid #ccc;
 }
 .a-container .a-box .a-header {
