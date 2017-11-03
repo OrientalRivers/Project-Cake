@@ -1,38 +1,20 @@
-/**index.wxss**/
-.a-container .a-box {
-  height: 80rpx;
-  line-height: 80rpx;
-  margin-top: 20rpx; 
-  background: #fff;
-  border-bottom: 1rpx solid #E5E5E5;
+/* pages/classlist/classlist.wxss */
+.classlist-container .classlist-header {
+  border: 1px solid #c00;
+  border-radius: 6rpx;
+  margin: 10rpx;
 }
-.a-container .a-box .a-header {
-  float: left;
-  font-size: 30rpx;
+.classlist-container .classlist-header .classlist-header-box {
+  height: 60rpx;
+  line-height: 60rpx;
 }
-.a-container .a-box .a-a, .a-tit, .a-more {
-  font-weight: 600;
-  color: #fff;
+.classlist-container .classlist-header .classlist-header-box view {
+  width: 25%;
   text-align: center;
 }
-.a-container .a-box .a-a, .a-more {
-  width: 52rpx;
-  height: 52rpx;
-  line-height: 52rpx;
-  background: #E4393C;
-  border-radius: 6rpx;
-  margin: 14rpx 0 0 14rpx;
-}
-.a-container .a-box .a-tit {
-  font-size: 36rpx;
-  color: #E4393C;
-  margin-left: 38rpx;
-}
-.a-container .a-box .a-more {
-  width: 140rpx;
-  float: right;
-  margin: 14rpx 14rpx 0 0 ; 
-  border-radius: 6rpx;
+.classlist-container .classlist-header .classlist-header-box view.on {
+  color: #fff;
+  background: #c00;
 }
 .a-container .a-product-box .a-product-div {
   float: left;

@@ -19,7 +19,7 @@ image {
   clear: both;
 }
 .swiper-container swiper {
-  height: 360rpx;
+  height: 375rpx;
 }
 .swiper-container .slide-image {
   width: 100%;

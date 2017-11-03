@@ -10,6 +10,7 @@
   margin: 55rpx 0 0 55rpx;
   border: 1rpx solid #fff;
   border-radius: 50%;
+  overflow: hidden;
 }
 .container .user .user-info view {
   float: left;

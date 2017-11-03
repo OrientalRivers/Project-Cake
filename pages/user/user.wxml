@@ -3,9 +3,9 @@
   <view class='user'>
     <view class='user-info clearfix'>
       <view class='user-pic'>
-        <image></image>
+        <image src='{{userInfo.avatarUrl}}'></image>
       </view>
-      <view class='user-name'>xxxxxxxxxxxx</view>
+      <view class='user-name'>{{userInfo.nickName}}</view>
     </view>
     <view class='user-goods'>
       <view class='goods-icon'>

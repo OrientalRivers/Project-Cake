@@ -2,7 +2,7 @@
 <view class="container classify">
   <view class='classify-box'>
     <!-- <block wx:for="{{slider}}" wx:key="unique"> -->
-      <view class='classify-info'>
+      <view class='classify-info' bindtap='openClassLIst'>
         <view class='classify-info-set'>
           <image src='../../images/list-icon/class_dg.png'></image>
           <view class='classify-info-tit'>蛋糕</view>

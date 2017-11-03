@@ -1,18 +1,26 @@
-// pages/classify/classify.js
+// pages/classlist/classlist.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    currentTit: 0,
   },
-  openClassLIst: function () {
-    wx.navigateTo({
-      url: '../classlist/classlist?id=2',
-    })
+  clickClsTit: function (e) {
+    var that = this;
+    console.log(e.currentTarget.dataset.currentId)
+    if (this.data.currentTit == e.currentTarget.dataset.currentId) {
+        return false
+      }else {
+        that.setData({
+          currentTit: e.currentTarget.dataset.currentId,
+        })
+      }
+
+    
   },
-   /**
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

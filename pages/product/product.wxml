@@ -2,7 +2,7 @@
 <view class='container'>
   <view class='swiper-container' >
     <swiper autoplay='false' circular='true' indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='#f80'>
-      <block wx:for="{{slider}}">
+      <block wx:for="{{slider}}" wx:key='un'>
         <swiper-item height="310rpx">
           <image class="slide-image" src='{{item.picUrl}}' ></image>
         </swiper-item>
@@ -30,14 +30,14 @@
         </view>
         <view class='old-set small-tit'>
           <view class='fl'>价格：</view>
-          <view class='old-price fl'>￥999</view>
+          <view class='old-price fl'>{{objectcakeSizeArray[cakeSizeIndex].oldPrice}}</view>
         </view>
         <view class='small-tit'>
           <view class='fl'>
             <image class='sell-icon' src='../../images/icon/sell_icon.png'></image>
           </view>
           <view class='fl new-price'>
-            ￥099
+            {{objectcakeSizeArray[cakeSizeIndex].newPrice}}
           </view>  
         </view>
       </view>
@@ -45,9 +45,9 @@
   </view>
   <view class="picker-section clearfix">
     <view class="section__title fl">请选择蛋糕尺寸：</view>
-    <picker class='fl' bindchange="bindPickerChange" value="{{index}}" range="{{cakeSizeArray}}">
+    <picker class='fl' bindchange="bindPickerChange" value="{{cakeSizeIndex}}" range="{{objectcakeSizeArray}}" range-key="{{'name'}}">
       <view class="picker">
-        {{cakeSizeArray[index]}}
+        {{objectcakeSizeArray[cakeSizeIndex].name}}
       </view>
     </picker>
     <view class='go-more-size fl'>
@@ -59,8 +59,8 @@
       <view class='call-icon fl'>
         <image src='../../images/icon/call-icon.png'></image>
       </view>
-      <view class='fl'>24小时热线：400-658-1177</view>
-      <view class='fl call-btn' bindtap='makeTelCall'>拨打咨询</view>
+      <view class='fl setlh'>24小时热线：400-658-1177</view>
+      <view class='fl call-btn setlh' bindtap='makeTelCall'>拨打咨询</view>
     </view>
   </view>
   <view class='info-container'>
@@ -140,7 +140,7 @@
       <image src='../../images/company/whyme.jpg'></image>
     </view>
   </view>
-  <view class='buy-button'>
+  <view class='buy-button' bindtap='j_buynow'>
     <view>
       立即购买
     </view>

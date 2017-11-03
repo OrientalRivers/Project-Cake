@@ -10,31 +10,43 @@ Page({
       { picUrl: '../../images/m_banner/m_banner8.jpg' },
       { picUrl: '../../images/m_banner/m_banner9.jpg' }
     ],
-    cakeSizeArray: ['两百英尺（1000人）', '两百尺（1000人）', '百英尺（1000人）', '两百英尺（1000人）'],
     objectcakeSizeArray: [
       {
         id: 0,
-        name: '两百英尺（1000人）'
+        name: '两英尺（1000人）',
+        oldPrice: 998,
+        newPrice: 198
       },
       {
         id: 1,
-        name: '两百尺（1000人）'
+        name: '两百尺（1000人）',
+        oldPrice: 298,
+        newPrice: 98
       },
       {
         id: 2,
-        name: '百英尺（1000人）'
+        name: '百英尺（1000人）',
+        oldPrice: 998,
+        newPrice: 98
       },
       {
         id: 3,
-        name: '两百英尺（1000人）'
+        name: '两百英尺（1000人）',
+        oldPrice: 998,
+        newPrice: 98
       }
     ],
-    index: 0,
+    cakeSizeIndex: 0,
   },
   bindPickerChange: function (e) {
     console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({
-      index: e.detail.value
+      cakeSizeIndex: e.detail.value
+    })
+  },
+  j_buynow: function () {
+    wx.navigateTo({
+      url: '../confirm_order/confirm_order',
     })
   },
   makeTelCall: function () {

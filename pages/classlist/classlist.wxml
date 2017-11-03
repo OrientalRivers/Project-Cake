@@ -1,0 +1,38 @@
+<!--pages/classlist/classlist.wxml-->
+<view class='container'>
+  <view class='classlist-container'>
+    <view class='classlist-header'>
+      <view class='classlist-header-box clearfix'>
+        <view class='fl {{currentTit== 0? "on" : ""}}' bindtap='clickClsTit' data-current-id='0'>
+          推荐 ↓
+        </view>
+        <view class='fl {{currentTit== 1? "on" : ""}}' bindtap='clickClsTit' data-current-id='1'>
+          新品 ↓
+        </view>
+        <view class='fl {{currentTit== 2? "on" : ""}}' bindtap='clickClsTit' data-current-id='2'>
+          销量 ↓
+        </view>
+        <view class='fl {{currentTit== 3? "on" : ""}}' bindtap='clickClsTit' data-current-id='3'>
+          价格 ↓
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='a-container'>
+    <view class='a-product-box clearfix'>
+      <!-- <block wx:for="{{slider}}" wx:key="unique"> -->
+        <view class='a-product-div' bindtap="openProductPage">
+          <view class='a-product-set'>
+            <image src='../../images/product/711673175228.jpg'></image>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt'>我想要的幸福</view>
+            <view class='a-product-txt a-product-bottom clearfix'>
+              <view class='a-product-price'>￥188</view>
+              <view class='a-product-sure'>购买</view>
+            </view>
+          </view>
+        </view>
+      <!-- </block> -->
+    </view>
+  </view>
+</view>

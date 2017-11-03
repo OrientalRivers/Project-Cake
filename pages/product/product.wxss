@@ -63,7 +63,7 @@
   bottom: 0;
 }
 .call-container .call-container-box {
-  padding: 20rpx 0;
+  /* padding: 20rpx 0; */
 }
 .call-container .call-container-box .call-icon {
   padding: 0;
@@ -73,15 +73,17 @@
   height: 72rpx;
   
 }
-.call-container .call-container-box view {
-  padding: 18rpx;
+.call-container .call-container-box .setlh {
+  line-height: 72rpx;
 }
 .call-container .call-container-box .call-btn {
+  font-size: 28rpx;
+  line-height: 28rpx;
   color: #28AA27;
   float: right;
   border: 1px #28AA27 solid;
   border-radius: 9rpx;
-  padding: 2rpx 6rpx;
+  padding: 9rpx 16rpx;
   margin: 14rpx;
 }
 .info-container .info-box .main-tit {
@@ -113,10 +115,10 @@
   margin-left: 114rpx; 
 }
 .info-container .info-box .info-img-box {
-  height: 400rpx;
+  height: 449rpx;
 }
 .company-merit .company-merit-box {
-  height: 1100rpx;
+  height: 1095rpx;
   margin-bottom: 180rpx;
 }
 .company-merit .company-merit-box .main-tit {

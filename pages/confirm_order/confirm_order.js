@@ -1,4 +1,4 @@
-// pages/classify/classify.js
+// pages/confirm_order/confirm_order.js
 Page({
 
   /**
@@ -7,12 +7,8 @@ Page({
   data: {
   
   },
-  openClassLIst: function () {
-    wx.navigateTo({
-      url: '../classlist/classlist?id=2',
-    })
-  },
-   /**
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
