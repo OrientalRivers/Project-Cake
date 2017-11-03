@@ -1,1 +1,38 @@
 /* pages/confirm_order/confirm_order.wxss */
+.confirm-order .confirm-order-box .buy-info {
+  margin: 20rpx 20rpx 0 20rpx;
+}
+.confirm-order .confirm-order-box .buy-info .b-img {
+  border: 1px solid #e5e5e5;
+}
+.confirm-order .confirm-order-box .buy-info image {
+  width: 140rpx;
+  height: 140rpx;
+}
+.confirm-order .confirm-order-box .buy-info .buy-info-txt {
+  width: 100%;
+  height: 152rpx;
+  margin-left: 160rpx;
+}
+.confirm-order .confirm-order-box .buy-info .buy-info-txt > view {
+  line-height: 70rpx;
+}
+.confirm-order .confirm-order-box .buy-info .buy-info-txt .b-info-some {
+  font-size: 28rpx;
+  color: #ccc;
+}
+.confirm-order .confirm-order-box .buy-info .buy-info-txt .b-info-tit view view{
+  display: inline-block;
+  font-size: 40rpx;
+  color: #f00;
+  text-indent: 190rpx; 
+}
+.confirm-order .confirm-order-box .buy-info .total-prices  {
+  text-align: right;
+  line-height: 70rpx;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 20rpx;
+}
+.confirm-order .confirm-order-box .buy-info .total-prices text {
+  color: #f00;
+}

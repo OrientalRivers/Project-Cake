@@ -1,25 +1,29 @@
 <!--pages/confirm_order/confirm_order.wxml-->
 <view class='container'>
   <view class='confirm-order'>
-    <view class='confirm-order-box'>
+    <view class='confirm-order-box clearfix '>
       <view class='buy-info'>
-        <image src='https://www.dangao.com/proimgs/701716175228.jpg' ></image>
-        <view>
-          <view>
-            名称：梦幻芭比<view>￥188</view>
+        <view class='fl b-img' >
+          <image src='../../images/product/711673175228.jpg' ></image>
+        </view>
+        <view class='buy-info-txt'>
+          <view class='b-info-tit'>
+            <view class=''>
+              名称：梦幻芭比<view class='b-price'>￥188</view>
+            </view>
+          </view>
+          <view class='b-info-some'>
+            <view>
+              附加：八英寸(
+            </view>
           </view>
         </view>
-        <view>
-          <view>
-            附加：八英寸(
-          </view>
-        </view>
-        <view>
-           共 1 件商品，198元
+        <view class=' total-prices'>
+           共 1 件商品，<text>198</text>元
         </view>
       </view>
       <view class="picker-section clearfix">
-        <view class="section__title fl">请选择蛋糕尺寸：</view>
+        <view class="section__title fl">请选择配送时间：</view>
         <picker class='fl' bindchange="bindPickerChange" value="{{cakeSizeIndex}}" range="{{objectcakeSizeArray}}" range-key="{{'name'}}">
           <view class="picker">
             {{objectcakeSizeArray[cakeSizeIndex].name}}
